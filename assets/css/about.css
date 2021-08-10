@@ -1,0 +1,171 @@
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: unset!important;
+    width: unset!important;
+}
+
+article.type-page header.entry-header.has-text-align-center.header-footer-group {
+    display: none;
+}
+
+body {
+    font-family: p-400!important;
+    font-size: 18px;
+    background: white!important;
+}
+
+.bg-navbar {
+    background-color: #343A4A;
+}
+
+.nav-space {
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    transform: translateX(185px);
+}
+
+.navbar .navbar-brand {
+    font-family: d-700;
+    font-size: 36px;
+    color: gray;
+}
+
+.navbar .navbar-brand:hover {
+    color: gray;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: p-400;
+    font-size: 18px;
+    color: gray;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-custom {
+    position: absolute;
+    width: 100%;
+}
+
+.font-white {
+    color: white;
+}
+
+.sec-pad {
+    padding: 60px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.sepaket img {
+    width: 45px;
+    display: unset!important;
+}
+
+.about {
+    font-family: p-700;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#sec-1 {
+    margin-top: -100px;
+}
+
+#sec-1 .row {
+    align-items: center;
+}
+
+#sec-1 .ab {
+    padding: 50px 30px;
+}
+
+#sec-1 .sepaket img {
+    margin: 0 0 0 30px;
+}
+
+.kanan {
+    text-align: right;
+}
+
+#sec-1 .profile {
+    width: 350px;
+    
+}
+
+footer {
+    padding: 20px;
+    background-color: #343A4A;
+    font-size: 14px;
+}
+
+footer p {
+    margin-bottom: 0!important;
+}
+
+@media (max-width: 1199px) {
+    #sec-1 .profile {
+        width: 300px;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 15px;
+    }
+
+    #sec-1 .profile {
+        width: 240px;
+    }
+
+    #sec-1 .ab {
+        padding: 30px 15px;
+    }
+
+    .about {
+        font-family: p-700;
+        font-size: 36px;
+        margin-top: 24px;
+        margin-bottom: 12px;
+    }
+
+    .sepaket img {
+        width: 40px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    #sec-1 .profile {
+        display: none;
+    }
+
+    #sec-1 .ab {
+        padding: 20px 10px;
+    }
+
+    .about {
+        font-family: p-700;
+        font-size: 24px;
+        margin-top: 18px;
+        margin-bottom: 12px;
+    }
+
+    .sepaket img {
+        width: 30px;
+    }
+    
+}

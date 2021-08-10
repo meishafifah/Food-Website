@@ -1,0 +1,218 @@
+ul.wp-block-latest-posts__list.is-grid.columns-3.wp-block-latest-posts li a {
+    color: black;
+}
+
+ul.wp-block-latest-posts__list.is-grid.columns-3.wp-block-latest-posts {
+    text-align: center;
+    font-size: 36px;
+    font-family: d-400;
+}
+
+body {
+    font-family: p-400;
+    font-size: 18px;
+}
+
+.bg-navbar {
+    background-color: #343A4A;
+}
+
+.nav-space {
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    transform: translateX(185px);
+}
+
+.navbar .navbar-brand {
+    font-family: d-700;
+    font-size: 36px;
+    color: gray;
+}
+
+.navbar .navbar-brand:hover {
+    color: gray;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: p-400;
+    font-size: 18px;
+    color: gray;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-custom {
+    position: absolute;
+    width: 100%;
+}
+
+.font-white {
+    color: white;
+}
+
+#sec-carousel {
+    margin-top: -160px;
+}
+
+.no-bg {
+    background-color: unset!important;
+}
+
+.sec-pad {
+    padding: 150px 0;
+}
+
+.jajanan {
+    text-align: center;
+    font-family: p-700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.card-title {
+    font-family: d-400;
+    font-size: 36px;
+}
+
+.btn-custom-1 {
+    border-radius: 0;
+    background-color: #343A4A;
+    border-color: white;
+}
+
+#sec-3 .col-md-4 {
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 20rem;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    padding: 20px;
+    background-color: #343A4A;
+    font-size: 14px;
+}
+
+footer p {
+    margin-bottom: 0!important;
+}
+
+@media (max-width: 1198px) {
+    .nav-space {
+        transform: unset;
+    }
+
+    #sec-3 .col-md-4 {
+        text-align: -webkit-center;
+    }
+
+    .card {
+        width: 18rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #sec-3 .col-md-4 {
+        text-align: -webkit-center;
+    }
+
+    .card {
+        width: 14rem;
+    }
+}
+
+@media (max-width: 900px) {
+    #sec-3 .col-md-4 {
+        text-align: -webkit-center;
+    }
+
+    .card {
+        width: 14rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14;
+    }
+
+    .jajanan {
+        font-size: 34px;
+    }
+
+    #sec-3 .col-md-4 {
+        text-align: -webkit-center;
+    }
+
+    .card {
+        width: 14rem;
+    }
+
+    .sec-pad {
+        padding: 75px 0;
+    }
+
+    #sec-3 .col-md-4 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        font-size: 14px;
+    }
+
+    .jajanan {
+        font-size: 28px;
+    }
+
+    #sec-3 .col-md-4 {
+        text-align: -webkit-center;
+    }
+
+    footer {
+        padding: 15px;
+        background-color: #343A4A;
+        font-size: 10px;
+    }
+
+    .card-title {
+        font-family: d-400;
+        font-size: 20px;
+    }
+
+    .btn-custom-1{
+        width: 60px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 599px) {
+    .wp-block-latest-posts.is-grid li {
+        margin: unset!important;
+    }
+}
+
+@media (max-width: 699px) {
+    #sec-carousel {
+        margin-top: -100px;
+    }
+    .post.type-post.status-publish.format-standard.has-post-thumbnail .entry-content {
+        padding: 20px 50px;
+      }
+}
+
+  

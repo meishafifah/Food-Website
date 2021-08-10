@@ -1,0 +1,47 @@
+@font-face {
+    font-family: p-400;
+    font-display: auto;
+    font-size: normal;
+    src :url('../assets/font/poppins-v15-latin-regular.ttf') format('truetype'),
+    url('../assets/font/poppins-v15-latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../assets/font/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/font/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../assets/font/poppins-v15-latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: p-700;
+    font-display: auto;
+    font-size: normal;
+    src :url('../assets/font/poppins-v15-latin-700.ttf') format('truetype'),
+    url('../assets/font/poppins-v15-latin-700.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../assets/font/poppins-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/font/poppins-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../assets/font/poppins-v15-latin-700.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: d-400;
+    font-display: auto;
+    font-size: normal;
+    src :url('../assets/font/DancingScript-Regular.ttf') format('truetype'),
+    url('../assets/font/Dancing\ Script.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../assets/font/Dancing\ Script.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/font/Dancing\ Script.woff') format('woff'), /* Modern Browsers */
+    url('../assets/font/Dancing\ Script.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: d-700;
+    font-display: auto;
+    font-size: normal;
+    src :url('../assets/font/DancingScript-Bold.ttf') format('truetype'),
+    url('../assets/font/DancingScript-Bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+    url('../assets/font/DancingScript-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/font/DancingScript-Bold.woff') format('woff'), /* Modern Browsers */
+    url('../assets/font/DancingScript-Bold.svg') format('svg'); /* Legacy iOS */
+}
+
+.par {
+    font-family: p-400!important;
+}

@@ -1,0 +1,328 @@
+.menu-modal-inner.modal-inner {
+    background: #343A4A!important;
+}
+
+
+
+
+header#site-header {
+    background: #343A4A;
+}
+
+.site-title.faux-heading {
+    color: white;
+    font-family: 'd-700';
+    font-size: 35px;
+}
+
+svg.svg-icon {
+    color: white;
+}
+
+span.toggle-text {
+    color: white!important;
+}
+
+li.page_item a {
+    color: white!important;
+}
+
+ul.wp-block-latest-posts__list.alignleft.wp-block-latest-posts {
+    max-width: unset;
+    float: none;
+}
+
+ul.wp-block-latest-posts__list.alignleft.wp-block-latest-posts a {
+    font-size: 64px;
+    font-family: 'd-400';
+    color: white;
+}
+
+.wp-block-latest-posts__post-excerpt {
+    color: white;
+}
+
+figure.wp-block-image.size-large {
+    margin: 0!important;
+}
+
+footer#site-footer {
+    margin-top: 0;
+    color: white!important;
+}
+
+footer#site-footer {
+    background: #343A4A;
+    margin-top: 0!important;
+}
+
+#site-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 50%;
+}
+
+.post.type-post.status-publish.format-standard.has-post-thumbnail .entry-content {
+  padding: 20px 200px;
+  font-family: p-400;
+  font-size: 16px;
+}
+
+h1.entry-title {
+    font-family: d-700;
+    font-size: 100px;
+}
+
+.featured-media-inner.section-inner {
+  text-align: center;
+}
+
+body {
+    font-family: p-400;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-space {
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    transform: translateX(185px);
+}
+
+.navbar .navbar-brand {
+    font-family: d-700;
+    font-size: 36px;
+    color: gray;
+}
+
+.navbar .navbar-brand:hover {
+    color: gray;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: p-400;
+    font-size: 18px;
+    color: gray;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-custom {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-toggler {
+    background: white;
+}
+
+#hero {
+    margin-top: -160px;
+    padding: 200px 0;
+    background-image: url('../images/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 96px;
+    font-family: d-700;
+    color: white;   
+}
+
+#hero h3 {
+    font-size: 36px;
+    font-family: p-400;
+    color: white;
+}
+
+#hero .btn {
+    align-content: center;
+    font-family: p-400;
+    font-size: 18px;
+    color: white;
+    border-color: white;
+    width: 237px;
+    height: 69px;
+    left: 555px;
+    top: 447px;
+}
+
+#hero .btn:hover{
+    background-color: #343A4A;
+}
+
+.sec-pad {
+    padding: 150px 0;
+}
+
+.perkenalan {
+    align-self: center;
+    text-align: right;
+}
+
+.subtitle {
+    font-family: d-400!important;
+    font-size: 64px!important;
+    margin: 0rem auto 1rem!important;
+}
+
+.img-kenal {
+    z-index: 2;
+}
+
+.relative {
+    position: relative;
+}
+
+.set {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 67px;
+    width: 300px;
+}
+
+.ful {
+    z-index: 1;
+    position: absolute;
+    top: 325px;
+    width: 300px;
+    left: 60px;
+}
+
+.sub-head {
+    font-size: 40px;
+    font-family: p-700;
+    margin-bottom: 40px;
+}
+
+.font-white {
+    color: white;
+}
+
+#sec-3 {
+    background-color: #343A4A;
+    padding: 50px 0 105px 0;
+}
+
+
+.fav-txt a:hover{
+    color: wheat;
+}
+
+.galeri-txt {
+    font-family: p-700;
+    font-size: 40px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #343A4A;
+    font-size: 14px;
+}
+
+footer p {
+    margin-bottom: 0!important;
+}
+
+#sec-4 .col-md-4 {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 991px) {
+    .nav-space {
+        transform: unset;
+    }
+
+    .ful {
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 14px;
+    }
+
+    .ful {
+        top: 285px;
+        width: 150px;
+    }
+
+    .set {
+        top: -90px;
+        width: 150px;
+    }
+
+    .subtitle {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        font-size: 14px;
+    }
+
+    #hero h1 {
+        font-size: 48px;
+    }
+
+    #hero h3 {
+        font-size: 18px;
+    }
+
+    #hero .btn {
+        width: 149px;
+        height: 49px;
+        margin-top: 30px;
+    }
+
+    .sec-pad {
+        padding: 75px 0;
+    }
+
+    .set {
+        top: -30px;
+        width: 100px;
+        left: 52px;
+    }
+
+    .ful {
+        display: none;
+    }
+
+    .sub-head {
+        font-size: 28px;
+    }
+    
+    .fav-txt {
+        margin-top: 20px;
+    }
+
+    .galeri-txt {
+        font-size: 28px;
+    }
+
+    footer {
+        padding: 15px;
+        background-color: #343A4A;
+        font-size: 10px;
+    }
+}
+
